@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppingapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SendMessage" />
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".Checkout_ItemsLayout" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Order_Delivery" />
+        <activity android:name=".Delivery" />
+        <activity android:name=".Confirm_Order" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".My_Cart" />
+        <activity android:name=".Display_Item" />
+        <activity android:name=".Search_Item" />
+        <activity android:name=".Login_signupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingActiviy" />
+        <activity android:name=".AdminFeedback" />
+        <activity android:name=".FeedbackActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".newOrder"
+            android:label="New Prescriptions" />
+        <activity
+            android:name=".adminNewOrederItems"
+            android:label="Order Items" />
+        <activity
+            android:name=".admin_newOrders"
+            android:label="New Orders" />
+        <activity
+            android:name=".editItems"
+            android:label="Manage Items" />
+        <activity android:name=".AddCategory" />
+        <activity android:name=".AdminPanel" />
+        <activity android:name=".AddItem" />
+        <activity
+            android:name=".AdminStock"
+            android:label="Stock" />
+        <activity
+            android:name=".Check_Stock"
+            android:label="Stock list" />
+        <activity
+            android:name=".editStock"
+            android:label="Edit Stock" />
+    </application>
+
+</manifest>

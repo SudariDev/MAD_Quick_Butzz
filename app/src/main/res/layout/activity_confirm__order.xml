@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECEC"
+    tools:context=".Confirm_Order">
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/relnew"
+        android:layout_width="match_parent"
+        android:layout_height="429dp"
+        android:background="#FFFFFF">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="199dp"
+            android:text="@string/your"
+            android:drawableEnd="@drawable/ic_baseline_add_location_31"
+            android:textColor="#474545"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Change"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="17dp"
+            android:background="@color/colorAccent1"
+            android:text="Upadate"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="362dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/input_design"
+            android:backgroundTint="#BADEE3"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone3"
+            android:layout_width="362dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/input_design"
+            android:backgroundTint="#BADEE3"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/address3"
+            android:layout_width="362dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/input_design"
+            android:backgroundTint="#BADEE3"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/city3"
+            android:layout_width="362dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="258dp"
+            android:background="@drawable/input_design"
+            android:backgroundTint="#BADEE3"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </com.rey.material.widget.RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="81dp">
+
+        <view
+            android:id="@+id/view4"
+            class="androidx.viewpager.widget.ViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/amo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="109dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/pr_amount"
+            android:textColor="#0E101E"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+
+            android:layout_alignStart="@id/view4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/pr_delivery"
+            android:textColor="#1C203C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/pr_item"
+            android:textColor="#1C203C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/total_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/tot"
+            android:textColor="#1C203C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#1C203C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTotAmountFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#1C203C"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="58dp"
+            android:background="?android:attr/listDivider" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_confirm_alert"
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="9dp"
+        android:background="#2199A8"
+        android:text="@string/confirm"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="-63dp"
+        android:background="?android:attr/listDivider" />
+
+
+</RelativeLayout>
