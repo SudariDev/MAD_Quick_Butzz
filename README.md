@@ -10,7 +10,7 @@ An android application created using adriod studio for mobile application develo
 * import the project ot android studio
 * build the project using gradled
 * run the application
-  
+ 
   
 ### dependecies
 
