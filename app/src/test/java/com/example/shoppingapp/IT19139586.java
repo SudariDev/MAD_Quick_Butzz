@@ -72,7 +72,7 @@ public class IT19139586 {
     @Test
     public void password_isCorrect4() {
         password=registerActivity.isValidatePassword("ashan");
-        assertTrue(password);
+        assertFalse(password);
     }
     @After
     public void clear(){
