@@ -54,7 +54,3 @@ private int oneTypeProductTPrice;
     }
 }
 
-protected int oneProductPice(int price, int quantity )
-{
-    return price*quantity;
-}
